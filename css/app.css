@@ -1,1 +1,55 @@
-.box-countdown-clock{background-color:#1c030b;width:50%;float:left;position:relative;height:100%}.box-countdown-clock .box-countdown-clock-item{display:inline-block;width:20%;color:#b60023}.box-countdown-clock .box-countdown-clock-item span:first-of-type{display:inline;font-family:"Overtime LCD",sans-serif;font-size:24px}.box-countdown-clock .box-countdown-clock-item span+span{color:#fff;text-transform:uppercase}.box-countdown-clock .details{position:relative;top:30%;text-align:center}.box-countdown-clock .details .description{display:block}.box-countdown-event{background-color:#C6002A;width:50%;float:left;position:relative;height:100%;color:#fff}.box-countdown-event h2{font-family:"Frutiger LT W01 65 Bold",Frutiger,"Frutiger Linotype",Univers,Calibri,"Gill Sans","Gill Sans MT","Myriad Pro",Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;text-shadow:none;text-transform:uppercase}.box-countdown-event .details{position:relative;top:30%;text-align:center}.box-countdown-event .details .description{display:block;margin-bottom:10px}.box-countdown-event a{color:#fff}
+.box-countdown-clock{
+	background-color:#1c030b;
+	width:50%;
+	float:left;
+	position:relative;
+	height:100%
+}
+.box-countdown-clock .box-countdown-clock-item{
+	display:inline-block;
+	width:20%;
+	color:#b60023
+}
+.box-countdown-clock .box-countdown-clock-item span:first-of-type{
+	display:inline;
+	font-family:"Overtime LCD",sans-serif;
+	font-size:24px
+}
+.box-countdown-clock .box-countdown-clock-item span+span{
+	color:#fff;
+	text-transform:uppercase
+}
+.box-countdown-clock .details{
+	position:relative;
+	top:30%;
+	text-align:center
+}
+.box-countdown-clock .details .description{
+	display:block
+}
+.box-countdown-event{
+	background-color:#C6002A;
+	width:50%;
+	float:left;
+	position:relative;
+	height:100%;
+	color:#fff
+}
+.box-countdown-event h2{
+	font-family:"Frutiger LT W01 65 Bold",Frutiger,"Frutiger Linotype",Univers,Calibri,"Gill Sans","Gill Sans MT","Myriad Pro",Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#fff;
+	text-shadow:none;
+	text-transform:uppercase
+	}
+.box-countdown-event .details{
+	position:relative;
+	top:30%;
+	text-align:center
+}
+.box-countdown-event .details .description{
+	display:block;
+	margin-bottom:10px
+}
+.box-countdown-event a{
+	color:#fff
+}
