@@ -12,6 +12,8 @@
 
 		span:first-of-type {
 			display: inline;
+			font-family: $font-stack-lcd;
+			font-size: $font-size-lcd;
 		}
 
 		span + span {
@@ -41,6 +43,7 @@
 	color: $base-color-white;
 
 	h2 {
+		font-family: $font-stack-header;
 		color: $base-color-white;
 		text-shadow: none;
 		text-transform: uppercase;

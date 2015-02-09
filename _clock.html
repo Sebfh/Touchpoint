@@ -1,0 +1,49 @@
+<!-- 
+	Geef bij data-event-date-time een gewenste starttijd van het event op en de clock zal naar dit tijdstip aftellen.
+	voorbeeld: data-event-date-time = "2015-03-23 23:00"
+
+	Belangrijk is dat de section id #countdownclock heeft, en dat dit in het stukje javascript wordt meegegeven.
+-->
+
+<!-- Countdown Begin -->
+<span class="hst-container-item">
+    <div class="grid_6">
+        <section id="countdownclock" data-event-date-time="2015-03-23 23:00" class="box box-countdown" style="height: 172px;">
+            <div class="box-countdown-clock">
+                <div class="details">
+                    <div class="box-countdown-clock-item">
+                        <span id="days">00</span>
+                        <span>dagen</span>
+                    </div>
+                    <div class="box-countdown-clock-item hours">
+                        <span id="hours">00</span>
+                        <span>uren</span>
+                    </div>
+                    <div class="box-countdown-clock-item minutes">
+                        <span id="minutes">00</span>
+                        <span>minuten</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box-countdown-event">
+                <div class="details">
+                    <h2>Open Dag</h2>
+                    <span class="description">
+                        23 januari 10:00 - 16:00
+                    </span>
+                    <a href="#">> Meer info</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</span>
+<!-- Countdown End -->
+
+
+
+<!-- javascript include and initialiation --> 
+<script src="./js/countdown.clock.js"></script>
+<script type="text/javascript">
+	// plaese provide the id of the countdown-clock container
+    countdownClock.init('#countdownclock');
+</script>
