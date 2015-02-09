@@ -1,0 +1,63 @@
+.box-countdown-clock {
+	background-color: $base-color-black;
+	width: 50%;
+	float: left;
+	position: relative;
+	height: 100%;
+
+	.box-countdown-clock-item {
+		display: inline-block;
+		width: 20%;
+		color: $base-color-lcd;
+
+		span:first-of-type {
+			display: inline;
+		}
+
+		span + span {
+			color: #fff;
+			text-transform: uppercase;
+		}
+	}
+
+	.details {
+		position: relative;
+		top: 30%;
+
+		text-align: center;
+
+		.description {
+			display: block;
+		}
+	}
+}
+
+.box-countdown-event {
+	background-color: $base-color-red;
+	width: 50%;
+	float: left;
+	position: relative;
+	height: 100%;
+	color: $base-color-white;
+
+	h2 {
+		color: $base-color-white;
+		text-shadow: none;
+		text-transform: uppercase;
+	}
+
+	.details {
+		position: relative;
+		top: 30%;
+		text-align: center;
+
+		.description {
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+
+	a {
+		color: $base-color-white;
+	}
+}
